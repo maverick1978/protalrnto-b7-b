@@ -1,0 +1,43 @@
+.margenDiv {
+    border: 5px green solid;
+}
+
+.divAltura {
+    height: 50px;
+}
+
+.divPixeles {
+    width: 100px;
+}
+
+.div-cm {
+    width: 30cm;
+}
+
+.divPorcentaje {
+    width: 50%;
+}
+
+.tamanio-em {
+    font-size: 24px;
+}
+
+.hijoEM {
+    font-size: 2em;
+}
+
+html {
+    font-size: 16px;
+}
+
+.HIJOrem {
+    font-size: 0.5REM;
+}
+
+.divmarginem {
+    margin-top: 1em;
+}
+
+.DivconVN{
+    width: 40vh;
+}

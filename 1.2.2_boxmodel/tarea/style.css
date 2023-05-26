@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+}
+
+.chico {
+    width: 100%;
+    height: 200px;
+}
+
+.azul {
+    background: cyan;
+    border: gray solid;
+}
+
+.grande {
+    position: static;
+    border: gray solid;
+    width: 100%;
+    height: 400px;
+}
+
+.container {
+    position: static;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.mediano {
+    display: inline-block;
+    width: 49.26%;
+    height: 200px;
+}
+
+.margin-derecho {
+    border: gray solid;
+    margin-left: 5px;
+}
+
+.margin-abajo {
+    border: gray solid;
+    margin-bottom: 5px;
+}
