@@ -1,44 +1,42 @@
 body {
-    background-color: gray;
+  margin: 0;
+  padding: 0;
+  background-color:grey;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
 }
 
-.chico {
-    width: 100%;
-    height: 200px;
+div {
+  border: 5px solid gray;
 }
 
-.azul {
-    background: cyan;
-    border: gray solid;
+.chicoazul {
+  background-color: aqua;
+  height: 20%;
 }
 
-.grande {
-    position: static;
-    border: gray solid;
-    width: 100%;
-    height: 400px;
+.grandeazul {
+  background-color: aqua;
+  height: 40%;
 }
 
 .container {
-    position: static;
-    padding: 0px;
-    margin-left: 0px;
-    margin-right: -5px;
-    margin-left: -5px;
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
 }
 
-.mediano {
-    display: inline-block;
-    width: 49.26%;
-    height: 200px;
+.medianoazul {
+  background-color: aqua;
+  width: calc(50% - 5px);
 }
 
 .margin-derecho {
-    border: gray solid;
-    margin-left: 5px;
+  margin-right: 5px;
 }
 
 .margin-abajo {
-    border: gray solid;
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
