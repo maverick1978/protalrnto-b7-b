@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+#titulo-principal  {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+li:hover {
+  background-color: lightyellow;
+}
+
+li:focus {
+  background-color: lightcyan;
+  outline: none;
+}
+
+li span {
+  margin-right: 10px;
+}
+
+li.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+
+li.completed span {
+  content: '\2713';
+}
+
+li.incomplete span {
+  content: '\2717';
+}

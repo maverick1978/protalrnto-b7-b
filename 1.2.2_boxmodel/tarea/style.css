@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color:grey;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+}
+
+div {
+  border: 5px solid gray;
+}
+
+.chicoazul {
+  background-color: aqua;
+  height: 20%;
+}
+
+.grandeazul {
+  background-color: aqua;
+  height: 40%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+}
+
+.medianoazul {
+  background-color: aqua;
+  width: calc(50% - 5px);
+}
+
+.margin-derecho {
+  margin-right: 5px;
+}
+
+.margin-abajo {
+  margin-bottom: 5px;
+}
