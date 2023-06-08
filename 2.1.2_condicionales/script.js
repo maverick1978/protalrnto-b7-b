@@ -1,7 +1,7 @@
 // Ejercicio 1
 function ejercicio1() {
     let respuesta = prompt('¿Eres bellisimo/a?');
-    if (respuesta === 'sí') {
+    if (respuesta === 'si') {
         alert('Ciertamente');
     } else if (respuesta === 'no') {
         alert('No te creo');
